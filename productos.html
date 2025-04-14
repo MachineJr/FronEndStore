@@ -14,14 +14,6 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav>
-      <ol>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#"></a>Quienes somos</li>
-        <li><a href="#"></a>Nosotros</li>
-        <li><a href="#"></a>Contacto</li>
-      </ol>
-    </nav>
     <header class="header">
       <a href="index.html">
         <img class="header__logo" src="img/logo.png" alt="Logotipo" />
@@ -33,8 +25,38 @@
       >
       <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
     </nav>
-    <main class="contenedoe">
-      <h1>Producto</h1>
+    <main class="contendor">
+      <h1>ReactJS</h1>
+      <div class="camisa">
+        <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del producto" />
+        <div class="camisa__contenido">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+            voluptate debitis perspiciatis possimus, ullam, voluptates id culpa
+            dolorem odit, ipsum eligendi placeat earum doloribus adipisci
+            doloremque quae ratione optio necessitatibus.
+          </p>
+          <form class="formulario">
+            <select class="formulario__campo">
+              <option disabled selected>-- Selecionar talla --</option>
+              <option>Chica</option>
+              <option>Mediana</option>
+              <option>Grande</option>
+            </select>
+            <input
+              class="formulario__campo"
+              type="number"
+              placeholder="Cantidad"
+              min="1"
+            />
+            <input
+              class="formulario__submit"
+              type="submit"
+              value="Agregar al carrito"
+            />
+          </form>
+        </div>
+      </div>
     </main>
     <footer class="footer">
       <p class="footer__texto">
